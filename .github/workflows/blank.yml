@@ -1,0 +1,12 @@
+
+name: first workflow
+on: workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs: First Job
+    runs-on: ubuntu-latest
+
+    steps:
+     
+      - name: First Step
+        run: echo Hello, world!
