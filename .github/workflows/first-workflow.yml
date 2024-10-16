@@ -10,4 +10,8 @@ jobs:
       - name: First Step is printing greeting
         run: echo Hello, world!
       - name: Last Step is printing goodbye
-        run: echo Good Bye
+        run: |
+           echo Good Bye
+           echo Good Bye2
+           echo Good Bye3
+           
